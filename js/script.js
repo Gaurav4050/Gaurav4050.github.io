@@ -9,7 +9,7 @@ $(document).ready(function () {
     $(".s-icon").toggleClass("open");
     $(".contact").toggleClass("open");
     $(".contact .section-title").toggleClass("open");
-     $(".contact .second-level .box p a").toggleClass("open");
+    $(".contact .second-level .box p a").toggleClass("open");
     $(".contact .second-level").toggleClass("open");
     $(".home").toggleClass("open");
     $(".home .text-content h3").toggleClass("open");
@@ -18,6 +18,7 @@ $(document).ready(function () {
     $(".education .section-title").toggleClass("open");
     $(".education").toggleClass("open");
   });
+
   
   $(".theme-box .colors").click(function(){
     $(".style-switcher").toggleClass("open");
