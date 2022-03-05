@@ -645,8 +645,15 @@ section{
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
     text-decoration: underline;
-    
 }
+
+
+
+
+
+
+
+
 
 /*sklil section styling*/
 .Skills{
@@ -1422,6 +1429,18 @@ footer{
         height: 300px;
     }
 }
+@media (max-width:400px){
+    .home .img-section img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width:360px){
+    .home .img-section img{
+        width: 220px;
+        height: 220px;
+    }
+}
 
 
 /*========== org responsiveness ==== */
@@ -1579,6 +1598,41 @@ footer{
         font-size: 16px;
         font-weight: 500;
         color: var(--text-black-700);
+    }
+}
+
+
+    @media (max-width: 380px){
+.about .skill-info .info .row h3 span {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-black-700);
+}
+}
+
+@media (max-width: 380px){
+.edu-content h3 {
+    font-size: 14px;
+}
+
+.edu-content p {
+    font-size: 13px;
+    font-weight: bold;
+}
+}
+@media (max-width: 380px){
+.edu-content h3 {
+    font-size: 12px;
+}
+
+.edu-content p {
+    font-size: 11px;
+    font-weight: bold;
+}
+}
+@media (max-width: 390px){
+    .contact .second-level .box p {
+        font-size: 8px;
     }
 }
 
