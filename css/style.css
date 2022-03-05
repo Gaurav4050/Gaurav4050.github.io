@@ -1371,6 +1371,13 @@ section{
     text-transform: capitalize;
 }
 
+.contact .second-level.open p{
+    color: #1b1b22 !important;
+}
+.contact .second-level .box p a.open{
+    color: #1b1b22 !important;
+}
+
 .third-level{
     padding-top: 30px;
 }
