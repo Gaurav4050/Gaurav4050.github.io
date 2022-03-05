@@ -21,4 +21,6 @@ window.onload = function() {
 
 function sendalert(){
     alert('message sent succesfully')
+      document.getElementById("contact-form").reset();
+
 }
