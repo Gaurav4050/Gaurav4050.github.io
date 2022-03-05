@@ -60,16 +60,12 @@ a{
 
 /* preloader css */
 #preloader{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    height: 102vh;
+    height: 101vh;
     background: #000 url(/images/loader.gif) no-repeat center center;
-    background-size: 30%;
+    background-size: 50%;
     position: fixed;
     z-index: 1230;
-    
 }
 
 .up-angle{
@@ -1016,7 +1012,7 @@ section{
   .hide3{
       display: none;
   }
-  @media (max-width:940px){
+  @media (max-width:950px){
     .edu-content h3{
         font-size: 22px;
     }
@@ -1029,21 +1025,31 @@ section{
 
     }
   }
-  @media (max-width:829px){
+  @media (max-width:871px){
     .edu-content h3{
         font-size: 18px;
     }
     .edu-content p{
-        font-size: 17px;
+        font-size: 27px;
     font-weight: bold;
     }
     .edu-content h4{
-        font-size: 19px;
+        font-size: 25px;
 
     }
   }
   @media (max-width:738px){
-      
+
+    .edu-image{
+        flex-basis: 0px;
+        width: 150px;
+        height: 150px;
+    }
+    .edu-image img{
+        width: 100%;
+        margin-right: 0px;
+        height: 100%;
+    }
     .education .edu-box-container .edu-box{
         flex-direction: column;
     }
@@ -1056,10 +1062,9 @@ section{
     }
     .edu-image img{
         width: 100%;
-      height: 70%;
     }
     .edu-content{
-        margin-top: -125px;
+       
         flex-basis: 0;
         align-items: baseline;
         padding-left: 25px;
@@ -1067,7 +1072,7 @@ section{
         width: 100%;
         padding-bottom: 47px;
         line-height: 1.9;
-        padding-top: 55px;
+        padding-top: 9px;
     }
     .hide{
         display: none;
@@ -1108,6 +1113,12 @@ section{
   }
 
 @media (max-width: 500px){
+
+    .edu-image{
+        flex-basis: 0px;
+        width: 100%;
+        height: 70%;
+    }
 .edu-content h3 {
     font-size: 18px;
 }
@@ -1121,8 +1132,26 @@ section{
 }
 }
 
+@media (max-width: 310px){
+.edu-content h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+}
 
-
+@media (max-width: 280px){
+.edu-content h3 {
+    font-size: 10px !important;
+}
+.edu-content h4 {
+    font-size: 11px;
+    font-weight: bold;
+}
+.edu-content p {
+    font-size: 8px !important;
+    font-weight: bold;
+}
+}
 /* === portfolio section ====== */
 .portfolio .box-container .box{
     position: relative;
