@@ -17,6 +17,10 @@ $(document).ready(function () {
     $(".education .section-title").toggleClass("open");
     $(".education").toggleClass("open");
   });
+  
+  $(".theme-box .colors").click(function(){
+    $(".style-switcher").toggleClass("open");
+  })
 
   $(window).scroll(function () {
     $(".style-switcher").removeClass("open");
