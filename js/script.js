@@ -48,14 +48,14 @@ function setThemeAttr(color) {
 }
 
 var typed = new Typed(".typing", {
-  strings:["Machine Learning", "Development", "Data Science", "C.P."],
+  strings:["Machine Learning", "Deep Learning", "Data Science", "C.P."],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true,
 });
 
 var typed = new Typed(".typing-2", {
-  strings: ["Machine Learning", "Development", "Data Science", "C.P."],
+  strings: ["Machine Learning", "Deep Learning", "Data Science", "C.P."],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true,
