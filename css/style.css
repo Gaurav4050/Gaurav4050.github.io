@@ -1272,7 +1272,9 @@ section{
 .portfolio-container .box-container .box6{
     flex: 0 0 30%;
 }
-
+.portfolio .line1 a{
+    color: black
+}
 
 /* == Contect section CSS === */
 
